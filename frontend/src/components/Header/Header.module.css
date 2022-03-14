@@ -1,0 +1,10 @@
+.header_container{
+  max-width: 1800px;
+  min-width: 320px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}

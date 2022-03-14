@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Shnobel';
+    src: local('Shnobel Oblique'), local('Shnobel-Oblique'), url('Shnobeloblique.woff2') format('woff2'), url('Shnobeloblique.woff') format('woff'), url('Shnobeloblique.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Shnobel';
+    src: local('Shnobel Regular'), local('Shnobel-Regular'), url('Shnobelregular.woff2') format('woff2'), url('Shnobelregular.woff') format('woff'), url('Shnobelregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,7 @@
+.back {
+  background-image: url('back.png');
+  height: 100vh;
+  max-width: 1800px;
+  min-width: 320px;
+  width: 100%;
+}

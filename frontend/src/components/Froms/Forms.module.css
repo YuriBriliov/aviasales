@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Shnobel';
+    src: local('Shnobel Oblique'), local('Shnobel-Oblique'), url('../../fonts/Shnobeloblique.woff2') format('woff2'), url('../../fonts/Shnobeloblique.woff') format('woff'), url('../../fonts/Shnobeloblique.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.container_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container_form {
+    max-width: 400px;
+    min-width: 320px;
+    width: 97%;
+    margin: 0 auto;
+
+}
+
+.title {
+  font-size: 44px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Shnobel';
+  padding: 10px 0;
+}
+
+.social_block {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.social_block_disabled {
+  opacity: 0.5;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.form_title {
+  display: flex;
+  align-items: center;
+}
+
+.nums {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: 'Shnobel';
+  max-width: 70px;
+  min-width: 40px;
+  width: 100%;
+}
+
+.title_share {
+  font-size: 16px;
+  color: #eeeeee;
+  font-family: 'Lato', sans-serif;
+}
+
+.title_share_disable{
+  color: #c4c4c4;
+}
+
+
+
+.form {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input {
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 18px;
+  border: none;
+  margin-bottom: 20px;
+  outline: none;
+  width: 250px;
+}
+
+.btn_default {
+  border: none;
+  font-family: 'Shnobel';
+  text-transform: uppercase;
+  background: transparent;
+  font-size: 30px;
+  border: 3px solid #ffffff9f;
+  color: #ffffff9f;
+  padding: 5px 15px;
+  border-radius: 30px;
+  width: 200px;
+  transition: 0.2s ease;
+}
+
+
+.btn_active {
+  border: none;
+  font-family: 'Shnobel';
+  text-transform: uppercase;
+  background: #ffffff;
+  font-size: 30px;
+  border: 3px solid #ffffff;
+  color: #7F4156;
+  padding: 5px 15px;
+  border-radius: 30px;
+  width: 200px;
+  transition: 0.2s ease;
+}
+
+.btn_active:hover {
+  background: #7F4156;
+  border: 3px solid #7F4156;
+  color: #ffffff;
+  transition: 0.2s ease;
+}
+
+.checker {
+  width: 15px;
+  height: 15px;
+  background-color: #7F4156;
+  color: #ffffff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btn {
+  border: none;
+  font-family: 'Shnobel';
+  text-transform: uppercase;
+  background: #ffffff;
+  font-size: 30px;
+  border: 3px solid #ffffff;
+  color: #7F4156;
+  padding: 5px 15px;
+  border-radius: 30px;
+  width: 200px;
+  transition: 0.2s ease;
+}
+
+.btn:disabled {
+  background: transparent;
+  border: 3px solid #ffffff9f;
+  color: #ffffff9f;
+  
+}
+
+.btn:not(:disabled):hover {
+  background: #7F4156;
+  border: 3px solid #7F4156;
+  color: #ffffff;
+  transition: 0.2s ease;
+}
