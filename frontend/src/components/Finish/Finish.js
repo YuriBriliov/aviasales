@@ -8,6 +8,9 @@ const Finish = () =>{
   return(
     <div className={styles.back}>
         <Header />
+        <div className={styles.man}>
+        </div>
+        <div className={styles.floor}></div>
       <div className={styles.text_block}>
         <h4 className={styles.text1}>
           выборы
